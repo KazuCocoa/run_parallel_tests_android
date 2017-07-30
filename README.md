@@ -56,6 +56,12 @@ java -jar composer-0.2.4.jar \
 --shard false
 ```
 
-### for multiple languages
+#### for multiple languages
 - https://github.com/KazuCocoa/DroidTestHelper
 - https://github.com/linkedin/test-butler
+
+### Stop all emulators
+
+```
+java -jar bin/swarmer-0.2.0.jar stop
+```
