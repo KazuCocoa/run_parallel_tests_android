@@ -39,7 +39,7 @@ java -jar bin/composer-0.2.4.jar \
 --test-package com.example.android.testing.espresso.BasicSample.test \
 --test-runner android.support.test.runner.AndroidJUnitRunner \
 --output-directory artifacts/composer-output \
---verbose-output false
+--verbose-output false \
 --shard true
 ```
 
@@ -52,7 +52,7 @@ java -jar composer-0.2.4.jar \
 --test-package com.example.android.testing.espresso.BasicSample.test \
 --test-runner android.support.test.runner.AndroidJUnitRunner \
 --output-directory artifacts/composer-output \
---verbose-output false
+--verbose-output false \
 --shard false
 ```
 
